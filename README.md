@@ -1,6 +1,6 @@
-# Padrão MVC - Java
+# MVC Project - Java
 
-### O que você precisa para esse projeto?
+### What do you need for this project?
 
 - NetBeans (IDE)
 - Java 16
