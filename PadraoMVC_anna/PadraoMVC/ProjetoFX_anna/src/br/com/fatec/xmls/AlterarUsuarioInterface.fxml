@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="561.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.telas.AlterarUsuarioInterface">
+   <children>
+      <Button fx:id="btSalvar" layoutX="192.0" layoutY="348.0" mnemonicParsing="false" text="Salvar" textFill="#ca2bff" />
+      <Label fx:id="lbLogin" layoutX="118.0" layoutY="137.0" text="Login" />
+      <TextField fx:id="txtLogin" layoutX="118.0" layoutY="154.0" maxWidth="1000.0" prefHeight="25.0" prefWidth="324.0" />
+      <Label fx:id="lbSenha" layoutX="118.0" layoutY="188.0" text="Senha" />
+      <TextField fx:id="txtSenha" layoutX="118.0" layoutY="205.0" maxWidth="1000.0" prefHeight="25.0" prefWidth="324.0" />
+      <Label fx:id="lbStatus" layoutX="118.0" layoutY="240.0" text="Status" />
+      <TextField fx:id="txtStatus" layoutX="118.0" layoutY="257.0" maxWidth="1000.0" prefHeight="25.0" prefWidth="324.0" />
+      <Label fx:id="lbTipo" layoutX="118.0" layoutY="288.0" text="Tipo" />
+      <TextField fx:id="txtTipo" layoutX="118.0" layoutY="305.0" maxWidth="1000.0" prefHeight="25.0" prefWidth="324.0" />
+      <Button fx:id="btVoltar" layoutX="306.0" layoutY="348.0" mnemonicParsing="false" text="Voltar" textFill="#ca2bff" />
+      <Label fx:id="lbIdT" layoutX="139.0" layoutY="99.0" />
+      <Label fx:id="lbId" layoutX="119.0" layoutY="99.0" text="Id" />
+   </children>
+</AnchorPane>

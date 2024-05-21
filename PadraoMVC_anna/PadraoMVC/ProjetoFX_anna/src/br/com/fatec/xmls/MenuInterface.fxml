@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.telas.MenuInterface">
+   <children>
+      <MenuBar layoutY="6.0" prefHeight="39.0" prefWidth="682.0">
+        <menus>
+          <Menu fx:id="manterUsuario" mnemonicParsing="false" text="Gerenciar Usuarios">
+            <items>
+              <MenuItem fx:id="inserirU" mnemonicParsing="false" text="Inserir usuário" />
+                  <MenuItem fx:id="listarU" mnemonicParsing="false" text="Listar usuário" />
+            </items>
+          </Menu>
+          <Menu fx:id="manterProduto" mnemonicParsing="false" text="Gerenciar Veiculos">
+            <items>
+              <MenuItem fx:id="inserirP" mnemonicParsing="false" text="Inserir Veiculo" />
+                  <MenuItem fx:id="listarP" mnemonicParsing="false" text="Listar Veiculos" />
+            </items>
+          </Menu>
+          <Menu fx:id="manterUS" mnemonicParsing="false" text="Gerenciar Usuário Veiculo">
+            <items>
+              <MenuItem fx:id="inserirUP" mnemonicParsing="false" text="Inserir relação" />
+                  <MenuItem fx:id="listarUP" mnemonicParsing="false" text="Listar relações" />
+            </items>
+          </Menu>
+        </menus>
+         <padding>
+            <Insets left="110.0" top="10.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuBar>
+   </children>
+</AnchorPane>
